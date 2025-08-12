@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;  
+
+html, body {
+  font-family: 'Times New Roman', Times, serif !important;
+}
 
 input[type='number'] {
   -moz-appearance: textfield;
